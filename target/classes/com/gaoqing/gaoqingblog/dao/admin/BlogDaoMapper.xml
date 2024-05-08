@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gaoqing.gaoqingblog.dao.admin.BlogDaoMapper">
+
+    <resultMap id="EmplAnDept" type="com.gaoqing.gaoqingblog.pojo.Blog">
+        <result property="type.id" column="typeid"/>
+        <result property="type.name" column="name"/>
+        <result property="user.username" column="username"/>
+        <result property="user.id" column="userid"/>
+        <result property="tag.id" column="tagid"/>
+        <result property="tag.name" column="taname"/>
+        <result property="id" column="bid"/>
+        <result property="title" column="title"/>
+        <result property="content" column="content"/>
+        <result property="firstPicture" column="firstPicture"/>
+        <result property="flag" column="flag"/>
+        <result property="views" column="views"/>
+        <result property="appreciation" column="appreciation"/>
+        <result property="shareStatement" column="shareStatement"/>
+        <result property="commentabled" column="commentabled"/>
+        <result property="published" column="published"/>
+        <result property="recommend" column="recommend"/>
+        <result property="createTime" column="createTime"/>
+        <result property="updateTime" column="updateTime"/>
+        <result property="description" column="description"/>
+    </resultMap>
+
+
+    <select id="ListBlogAnd" resultMap="EmplAnDept">
+        SELECT
+        b.id AS bid,
+        b.appreciation AS appreciation,
+        b.commentabled AS commentabled,
+        b.content AS content,
+        b.create_time AS createTime,
+        b.description AS description,
+        b.first_picture AS firstPicture,
+        b.flag AS flag,
+        b.published AS published,
+        b.recommend AS recommend,
+        b.share_statement AS shareStatement,
+        b.title AS title,
+        b.update_time AS updateTime,
+        b.views AS views,
+        b.type_id AS typeid,
+        b.user_id AS userid,
+        t.name AS NAME,
+        ta.id AS tagid,
+        ta.name AS taname
+        FROM t_blog b
+        LEFT JOIN t_type t ON b.type_id = t.id
+        LEFT JOIN t_tag ta ON ta.id = b.tag_id
+
+        <if test="taname != null ">
+            where ta.name LIKE '%'+#{taname}+'%'
+        </if>
+
+        <if test="taname != null and  name != null">
+        and t.name LIKE '%'+#{name}+'%'
+        </if>
+
+        <if test="taname == null and name != null ">
+          where  t.name LIKE '%'+#{name}+'%'
+        </if>
+    </select>
+
+    <select id="ListBlog" resultMap="EmplAnDept">
+        SELECT
+            b.id AS bid,
+            b.appreciation AS appreciation,
+            b.commentabled AS commentabled,
+            b.content AS content,
+            b.create_time AS createTime,
+            b.description AS description,
+            b.first_picture AS firstPicture,
+            b.flag AS flag,
+            b.published AS published,
+            b.recommend AS recommend,
+            b.share_statement AS shareStatement,
+            b.title AS title,
+            b.update_time AS updateTime,
+            b.views AS views,
+            b.type_id AS typeid,
+            b.user_id AS userid,
+            t.name AS NAME,
+            ta.id AS tagid,
+            ta.name AS taname
+        FROM t_blog b
+        LEFT JOIN t_type t ON b.type_id = t.id
+        LEFT JOIN t_tag ta ON ta.id = b.tag_id
+  </select>
+
+    <!--删除标签根据id与name-->
+    <delete id="DeleteBlog" parameterType="com.gaoqing.gaoqingblog.pojo.Blog">
+        DELETE FROM t_blog WHERE id = #{bid}
+    </delete>
+
+    <!--保存新的标签  -->
+    <insert id="InsertBlog" parameterType="com.gaoqing.gaoqingblog.pojo.Blog">
+      INSERT INTO t_blog(
+          id,appreciation,commentabled,
+          content,create_time,description,
+          first_picture,flag,published,
+          recommend,share_statement,title,
+          update_time,views,type_id,tag_id,
+          user_id)
+      VALUES (
+          #{id},#{appreciation},#{commentabled},
+          #{content},#{createTime},#{description},
+          #{firstPicture},#{flag},#{published},
+          #{recommend},#{shareStatement},#{title},
+          #{updateTime},#{views},#{typeId},#{tagId},
+          #{userId});
+    </insert>
+
+    <select id="SlectBolgId" resultType="com.gaoqing.gaoqingblog.pojo.Blog" >
+        SELECT
+	        b.id AS bid,
+            b.appreciation AS appreciation,
+            b.commentabled AS commentabled,
+            b.content AS content,
+            b.create_time AS createTime,
+            b.description AS description,
+            b.first_picture AS firstPicture,
+            b.flag AS flag,
+            b.published AS published,
+            b.recommend AS recommend,
+            b.share_statement AS shareStatement,
+            b.title AS title,
+            b.update_time AS updateTime,
+            b.views AS views,
+            b.type_id AS typeid,
+            b.user_id AS userid
+        FROM t_blog b
+        WHERE b.id = #{id};
+    </select>
+
+    <!--      修改博客内容-->
+    <update id="UpdateBlog" >
+        UPDATE
+        t_blog
+        SET
+            appreciation=#{appreciation},
+            commentabled=#{commentabled},
+            content=#{content},
+            description=#{description},
+            first_picture=#{firstPicture},
+            flag=#{flag},
+            published=#{published},
+            recommend=#{recommend},
+            share_statement=#{shareStatement},
+            title=#{title},
+            update_time=#{updateTime},
+            tag_id=#{tagId},
+            type_id=#{typeId}
+        WHERE
+            id = #{id}
+    </update>
+
+
+    <select id="ListBlogTitle" resultType="com.gaoqing.gaoqingblog.pojo.Blog" >
+         SELECT
+            b.id AS bid,
+            b.appreciation AS appreciation,
+            b.commentabled AS commentabled,
+            b.content AS content,
+            b.create_time AS createTime,
+            b.description AS description,
+            b.first_picture AS firstPicture,
+            b.flag AS flag,
+            b.published AS published,
+            b.recommend AS recommend,
+            b.share_statement AS shareStatement,
+            b.title AS title,
+            b.update_time AS updateTime,
+            b.views AS views,
+            b.type_id AS typeid,
+            b.tag_id AS tagid,
+            b.user_id AS userid
+        FROM t_blog b
+        WHERE b.title  = #{title}
+    </select>
+
+</mapper>

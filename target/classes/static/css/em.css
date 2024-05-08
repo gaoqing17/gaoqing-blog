@@ -1,0 +1,201 @@
+
+body{
+    background:url("../images/leaves.png");
+}
+
+
+.m-padded-mini{
+    padding: 0.4em !important;
+}
+
+
+.m-padded-max{
+    padding: 1em !important;
+}
+
+.m-text-thin{
+    font-weight: 300 !important;
+}
+.m-padded-tb-large {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+
+.m-container-small {
+    max-width: 60em !important;
+    margin: auto !important;
+}
+
+.m-padded-tb-massive {
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+}
+
+.m-padded-tb-max {
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+    padding-left:3em!important;
+    padding-right:3em!important;
+}
+.m-padded-td-mini{
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+}
+
+.m-padded-td-minis{
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+
+.m-padded-td-massive{
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+
+.m-padded-lr{
+    padding-left:4em!important;
+    padding-right:4em!important;
+}
+
+
+
+
+.m-padded-responsive{
+    padding-left:4em!important;
+    padding-right:4em!important;
+}
+/*---------text-------------*/
+.m-text-set-of{
+    font-weight:300 !important;
+    letter-spacing:1px !important;
+    line-height:1.8;
+}
+
+.m-text-thin{
+    font-weight:300!important;
+}
+
+.m-text-spaced{
+   letter-spacing:1px !important;
+}
+
+.m-text-lined{
+    line-height:1.8;
+}
+
+.m-opacity-mini{
+    opacity:0.8 !important;
+}
+
+.m-margin-td-tiny{
+  margin-top: 0.3em !important;
+  margin-bottom: 0.3em !important;
+}
+
+/*------字体颜色为黑色-----------*/
+.m-black{
+    color: #333!important;
+}
+
+.m-right-top{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*--手机端显示不显示--*/
+.m-mobile-show{
+    display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+    /*不显示*/
+    .m-mobile-hide{
+        display: none !important;
+    }
+    /*显示*/
+    .m-mobile-show{
+        display: block!important;
+    }
+    .m-padded-responsive{
+        padding-left:0em!important;
+        padding-right:0em!important;
+    }
+}
+.m-mobile-wide {
+    width: 100% !important;
+}
+
+.m-margin-top {
+    margin-top: 1em !important;
+}
+.divWidth{
+    width: 100px;
+    height: 100px;
+    background-color: sandybrown;
+    display: inline-block;
+}
+
+/*取消换行*/
+.m-inline-bloke{
+    display:inline-block!important;
+}
+.m-container{
+    max-width: 72em !important;
+    margin:auto !important;
+}
+
+.m-container-samll{
+    max-width: 60em !important;
+    margin:auto !important;
+}
+
+
+/*input*/
+.m-input-mini{
+    min-width: 900px;
+    min-height: 200px;
+}
+
+.m-input-doc{
+    min-width: 827px;
+
+}
+
+/*----------positon---------*/
+.m-fixed{
+    position:fixed !important;
+    z-index: 10 !important;
+}
+
+.m-right-bottom{
+    bottom: 0 !important;
+    right: 0 !important;
+}
+
+
+.class_cover {
+    width: 100%;
+    height: 40px;
+    line-height: 50px;
+    padding-left: 6px;
+    background-color: rgba(0, 0, 0, .60);
+    /*color: #FFFFFF;*/
+    /*font-size: 26px;*/
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+.teal
+.m-container {
+    max-width: 72em !important;
+    margin: auto !important;
+}
+
+
+/*div换行*/
+.field{
+    clear: both;
+}

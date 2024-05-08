@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gaoqing.gaoqingblog.dao.admin.TypeDaoMapper">
+    <!--保存新的标签  -->
+    <insert id="typeInsert" parameterType="com.gaoqing.gaoqingblog.pojo.Type">
+      insert into t_type(name) values (#{name})
+    </insert>
+
+    <!--检索标签是否存在-->
+    <select id="typeSelect" resultType="com.gaoqing.gaoqingblog.pojo.Type">
+        SELECT * FROM t_type WHERE name = #{name}
+    </select>
+
+    <!--检索所有标签-->
+    <select id="typeIFSelect" resultType="com.gaoqing.gaoqingblog.pojo.Type">
+        SELECT * FROM t_type
+    </select>
+
+
+    <!--id检索标签-->
+    <select id="SelectById" resultType="com.gaoqing.gaoqingblog.pojo.Type">
+        SELECT * FROM t_type WHERE id = #{id}
+    </select>
+
+    <!--删除标签根据id与name-->
+    <delete id="typeDelete" parameterType="com.gaoqing.gaoqingblog.pojo.Type">
+        DELETE FROM t_type WHERE id = #{id}
+    </delete>
+
+    <!--根据修改标签-->
+    <update id="typeUpdate" >
+         UPDATE t_type SET NAME = #{name} WHERE id = #{id}
+    </update>
+
+</mapper>

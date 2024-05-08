@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gaoqing.gaoqingblog.dao.CommentsMapper">
+    <insert id="SaveComment" parameterType="com.gaoqing.gaoqingblog.pojo.Comment">
+       INSERT INTO t_comment (
+        admin_comment,
+        avatar,
+        content,
+        create_time,
+        email,
+        nickname,
+        blog_id
+    VALUES
+         (#{adminComment},
+         #{avatar},
+         #{content},
+         #{createTime},
+         #{email},
+         #{nickname},
+         #{blogId});
+    </insert>
+
+    <select id="getComment" resultType="com.gaoqing.gaoqingblog.pojo.Comment">
+        SELECT * FROM t_comment WHERE blog_id = #{blogId}
+    </select>
+</mapper>

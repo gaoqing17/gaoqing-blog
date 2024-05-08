@@ -1,0 +1,24 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: dev
+#整合mybatis
+mybatis:
+  type-aliases-package: com.gaoqing.gaoqingblog.pojo
+  #这里的意思是classpath表示resourecs后面就是在它下面建立的包mybatis/mapperis/*.xml
+#  apper-locations: classpath*:com/**/dao/*.xml
+  apper-locations: classpath:mybatis/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    call-setters-on-nulls: true #设置返回字段不为空，前端不报错
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+server:
+  servlet:
+    session:
+      cookie:
+        secure: false
