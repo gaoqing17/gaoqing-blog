@@ -199,3 +199,18 @@ body{
 .field{
     clear: both;
 }
+
+/*看板娘大小和位置*/
+.kanban-girl-container {
+    position: fixed;
+    bottom: 0;  /* 靠下 */
+    left: 100px;
+    z-index: 1000; /* 保证在最上层 */
+    width: 80px; /* 宽度 */
+    height: auto; /* 高度自适应 */
+}
+
+.kanban-girl {
+    width: 100%;
+    height: auto;
+}

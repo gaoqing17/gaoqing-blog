@@ -460,9 +460,6 @@
 						</div>
 					</div>
 				</div>
-
-
-
 				<div class="ui bottom attached segment m-padded-responsive"  th:if="${blogPageInfo.commentabled}">
 					<!--留言区域列表-->
 					<div id="comment-container" class="ui teal segment">
@@ -486,7 +483,8 @@
 											<p th:text="${comment.getContent()}"></p>
 										</div>
 										<div class="actions">
-											<a  class="reply" data-commentid="1" data-commentnickname="Matt" >回复</a>
+											<a class="reply" data-commentid="1" data-commentnickname="Matt">回复</a>
+											<a class="reply" data-commentid="1" data-commentnickname="Matt">删除</a>
 										</div>
 									</div>
 									<!--子集评论-->
@@ -500,11 +498,16 @@
 													<span th:text="${reply.nickname}"></span>
 												</a>
 												<div class="metadata">
-													<span class="date" th:text="${#dates.format(reply.createTime,'yyyy-MM-dd HH:mm')}">>刚刚</span>
+													<span class="date"
+														  th:text="${#dates.format(reply.createTime,'yyyy/MM/dd HH:mm')}">>刚刚</span>
 												</div>
 												<div class="text" th:text="${reply.content}">艾略特你永远是多么正确  </div>
 												<div class="actions">
-													<a class="reply">Reply</a>
+													<a class="reply" data-commentid="1"
+													   data-commentnickname="Matt">回复</a>
+													<a class="reply" data-commentid="1"
+													   data-commentnickname="Matt">删除</a>
+
 												</div>
 											</div>
 										</div>
@@ -515,7 +518,7 @@
 					</div>
 					<div id="comment-form" class="ui form">
 						<!--隐含域-->
-						<input type="text" name="blog.id" th:value="${blogPageInfo.id}">
+
 						<input type="hidden" name="parentComment.id" value="-1">
 						<div class="field">
 							<textarea name="cotent" placeholder="请输入你的评论信息"></textarea>
@@ -534,7 +537,10 @@
 								</div>
 							</div>
 							<div class="field  m-margin-bottom-small m-mobile-wide">
-								<button id="commentpost-btn" type="button" class="ui teal button m-mobile-wide" onclick="javascript:{this.disabled=true;document.form1.submit();}" style="width:100px;height: 40px"><i class="edit icon"></i>发布</button>
+								<button class="ui teal button m-mobile-wide" id="commentpost-btn"
+										onclick="{this.disabled=true;document.form1.submit();}"
+										style="width:100px;height: 40px" type="button"><i class="edit icon"></i>发布
+								</button>
 							</div>
 						</div>
 					</div>
@@ -614,33 +620,34 @@
 
 	<script th:inline="javascript">
 
-        //博客父评论
-        function myfunction(){
-            $("#comment-container").load(/*[[@{/comments/{id}(id=${blogPageInfo.id})}]]*/);
-        }
+
+		//博客父评论
+		function myfunction() {
+			$("#comment-container").load(/*[[@{/comments/{id}(id=${blogPageInfo.id})}]]*/);
+		}
 
 
-        //子评论
-        $(function () {
-            $("#comment-container").load(/*[[@{/comments/{id}(id=${blogPageInfo.id})}]]*/);
-        });
+		//子评论
+		$(function () {
+			$("#comment-container").load(/*[[@{/comments/{id}(id=${blogPageInfo.id})}]]*/);
+		});
 
 
-		$('.menu.toggle').click(function (){
+		$('.menu.toggle').click(function () {
 			$('.m-item').toggleClass('m-mobile-hide')
-		})
+		});
 
 		$('#payButton').popup({
-			popup:$('.pyaQ.popup'),
-			on:'click',
-			position:'bottom center',
-		})
+			popup: $('.pyaQ.popup'),
+			on: 'click',
+			position: 'bottom center',
+		});
 
 		$('#Directory').popup({
-			popup:$('.Directorys.popup'),
-			on:'click',
-			position:'left center',
-		})
+			popup: $('.Directorys.popup'),
+			on: 'click',
+			position: 'left center',
+		});
 
 		tocbot.init({
 			// Where to render the table of contents.
@@ -654,11 +661,11 @@
 		});
 
 		$('.wechaf').popup({
-			popup:$('.wechat-qr'),
-			on:'hover',
-			position:'left center',
+			popup: $('.wechat-qr'),
+			on: 'hover',
+			position: 'left center',
 
-		})
+		});
 
 		var qrcode = new QRCode("qrcode", {
 			text: "http://jindo.dev.naver.com/collie",
@@ -720,14 +727,16 @@
 
 
 		$('#commentpost-btn').click(function () {
-			var boo= $('.ui.form').form('validate form');
-			alert(boo)
-			if (boo){
+			var boo = $('.ui.form').form('validate form');
+			alert(boo);
+			if (boo) {
 				console.log('校验成功')
-			}else{
+			} else {
 				console.log('校验失败')
 			}
 		});
+
+
 	</script>
 	</body>
 </html>

@@ -1,4 +1,4 @@
-package com.gaoqing.gaoqingblog.service.admin;
+package com.gaoqing.gaoqingblog.service.admin.imp;
 import com.gaoqing.gaoqingblog.dao.admin.UserDaoMapper;
 import com.gaoqing.gaoqingblog.pojo.User;
 import com.gaoqing.gaoqingblog.service.admin.UserService;

@@ -44,7 +44,13 @@
     <!--center aligned:居中-->
     <div class="ui center  aligned container">
         <!--divided:分割线-->
-        <div class="ui inverted stackable divided  grid">
+        <div class="ui inverted stackable divided grid">
+            <div class="kanban-girl-container" >
+                <script src="https://cdn.jsdelivr.net/npm/live2d-widget@3.0.4/lib/L2Dwidget.min.js"></script>
+                <script class="kanban-girl">
+                    L2Dwidget.init();
+                </script>
+            </div>
             <!--three：这个模块在div中占三个空格点-->
             <div class="three wide column">
                 <div class="item">
@@ -72,12 +78,7 @@
                 <p class="m-opacity-mini m-text-thin m-text-spaced m-text-lined">这是我的各人博客，请你关注点赞收藏谢谢</p>
             </div>
 
-            <div class="seven wide column">
-                <script src="https://cdn.jsdelivr.net/npm/live2d-widget@3.0.4/lib/L2Dwidget.min.js"></script>
-                <script>
-                    L2Dwidget.init();
-                </script>
-            </div>
+
         </div>
         <div class="ui inverted section divider">
         </div>
@@ -94,31 +95,6 @@
     <script src="../static/lib/tocbot/tocbot.min.js" th:src="@{/lib/tocbot/tocbot.min.js}"></script>
     <script src="../static/lib/qrcode/qrcode.min.js" th:src="@{/lib/qrcode/qrcode.min.js}"></script>
     <script src="../static/lib/scrollTo/jquery.scrollTo.min.js" th:src="@{/lib/scrollTo/jquery.scrollTo.min.js}"></script>
-    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
-    <script>
-        var pio = new Paul_Pio({
-            "mode": "fixed",
-            "tips": true,
-            "hidden": true,
-            "content": {
-                "welcome": ["欢迎来到阿牛的网站！", "博主每天都有些折腾记录，欢迎前往他的小窝阅读~"],
-            },
-            "model": [
-                "banniang/live2d-widget-models/live2d-widget-model-miku/assets/miku.model.json", //初音
-                "banniang/live2d-widget-models/live2d-widget-model-shizuku/assets/shizuku.model.json",// 萌娘
-                "banniang/live2d-widget-models/live2d-widget-model-chitose/assets/chitose.model.json",
-                "banniang/live2d-widget-models/live2d-widget-model-koharu/assets/koharu.model.json",
-                "banniang/live2d-widget-models/live2d-widget-model-haru/01/assets/haru01.model.json",
-                "banniang/live2d-widget-models/live2d-widget-model-wanko/assets/wanko.model.json",
-                "banniang/live2d-widget-models/live2d-widget-model-vert/vert_classic/vert_classic.model.json",
-                "banniang/live2d-widget-models/live2d-widget-model-nepgear_extra/nepgear_extra/nepgear_extra.model.json",
-                "banniang/live2d-widget-models/live2d-widget-model-haruto/assets/haruto.model.json",
-                "banniang/live2d-widget-models/live2d-widget-model-haru/02/assets/haru02.model.json",
-                "banniang/live2d-widget-models/live2d-widget-model-histoire/histoire/histoire.model.json",
-                "banniang/live2d-widget-models/live2d-widget-model-blanc_normal/blanc_normal/blanc_normal.model.json",
-            ]
-        });
-    </script>
 </th:block>
 </body>
 </html>

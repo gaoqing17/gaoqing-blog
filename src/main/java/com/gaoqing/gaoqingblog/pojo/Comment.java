@@ -1,6 +1,5 @@
 package com.gaoqing.gaoqingblog.pojo;
 
-import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -27,8 +26,26 @@ public class Comment {
     private List<Comment> replyComments = new ArrayList<>();
     //回复评论
     private Comment parentComment;
+    //回复评论ID
+    private int parentCommentId;
+    //评论状态 1为正常显示 0 为删除
+    private int EthicalJudgment;
 
+    public int getParentCommentId() {
+        return parentCommentId;
+    }
 
+    public void setParentCommentId(int parentCommentId) {
+        this.parentCommentId = parentCommentId;
+    }
+
+    public int getEthicalJudgment() {
+        return EthicalJudgment;
+    }
+
+    public void setEthicalJudgment(int ethicealJudgment) {
+        EthicalJudgment = ethicealJudgment;
+    }
 
     public Comment() {
     }
@@ -123,9 +140,11 @@ public class Comment {
                 ", avatar='" + avatar + '\'' +
                 ", createTime=" + createTime +
                 ", blogId=" + blogId +
+                ", adminComment=" + adminComment +
                 ", replyComments=" + replyComments +
                 ", parentComment=" + parentComment +
-                ", adminComment=" + adminComment +
+                ", parentCommentId=" + parentCommentId +
+                ", EthicalJudgment=" + EthicalJudgment +
                 '}';
     }
 }

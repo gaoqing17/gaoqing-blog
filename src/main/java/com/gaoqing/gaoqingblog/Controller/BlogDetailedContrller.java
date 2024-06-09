@@ -2,21 +2,18 @@ package com.gaoqing.gaoqingblog.Controller;
 
 
 import com.gaoqing.gaoqingblog.pojo.Blog;
-import com.gaoqing.gaoqingblog.service.BlogDetailedService;
-import com.gaoqing.gaoqingblog.service.BlogDetailedServiceImpl;
+import com.gaoqing.gaoqingblog.service.imp.BlogDetailedServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import java.util.List;
-
 @Controller
 public class BlogDetailedContrller {
 
     @Autowired
-    BlogDetailedService blogDetailedService;
+    BlogDetailedServiceImpl blogDetailedService;
 
     //去详细
     @RequestMapping("/blog/{id}")

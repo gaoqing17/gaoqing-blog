@@ -1,8 +1,9 @@
-package com.gaoqing.gaoqingblog.service;
+package com.gaoqing.gaoqingblog.service.imp;
 
 import com.gaoqing.gaoqingblog.dao.TypesMapper;
 import com.gaoqing.gaoqingblog.pojo.Blog;
 import com.gaoqing.gaoqingblog.pojo.TypePassing;
+import com.gaoqing.gaoqingblog.service.TypesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -10,6 +10,7 @@ mybatis:
 #  apper-locations: classpath*:com/**/dao/*.xml
   apper-locations: classpath:mybatis/mapper/*.xml
   configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     map-underscore-to-camel-case: true
     call-setters-on-nulls: true #设置返回字段不为空，前端不报错
 pagehelper:

@@ -1,4 +1,4 @@
-package com.gaoqing.gaoqingblog.service.admin;
+package com.gaoqing.gaoqingblog.service.admin.imp;
 
 import com.gaoqing.gaoqingblog.dao.admin.TypeDaoMapper;
 import com.gaoqing.gaoqingblog.pojo.Type;
