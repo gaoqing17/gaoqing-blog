@@ -61,7 +61,7 @@
 					<div class="ui padded vertical segment m-padded-td-minis" th:each="Blog,iterStat:${blogPageInfo.list}">
 						<div class="ui stackable mobile reversed grid">
 							<div class="eleven wide column">
-								<h3 class="ui header" th:text="${Blog.title}"></h3>
+								<h3 class="ui header"><a th:href="@{/blog/{id}(id=${Blog.id})}" target="_blank" class="m-black" th:text="${Blog.title}"> </a></h3>
 								<p class="m-text-set-of"th:text="${Blog.description}"></p>
 								<div class="ui grid">
 									<div class="eleven wide column">
@@ -69,7 +69,7 @@
 											<div class="item ">
 												<img src="https://picsum.photos/800/450" alt="" class="ui avatar image">
 												<!--content：不换行div header：字体加粗-->
-												<div class="content"><a href="#" class="header"th:text="${Blog.getUser().nickname}"></a></div>
+												<div class="content"><a th:href="@{/blog/{id}(id=${Blog.id})}" class="header"th:text="${Blog.getUser().nickname}"></a></div>
 											</div>
 											<div class="item">
 												<!--calendar icon：时间图标-->

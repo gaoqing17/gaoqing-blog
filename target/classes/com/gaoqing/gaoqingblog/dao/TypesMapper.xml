@@ -56,14 +56,15 @@
     <!--检索出所有的使用到的文章-->
     <select id="getTypeList" resultMap="EmplAnDept">
       SELECT
-      t.name AS NAME,
-       u.nickname AS nickname,
-       b.description AS description,
-       b.views AS views,
-       b.create_time AS updateTime,
-       b.update_time AS updateTime,
-       b.title AS title,
-       b.first_picture AS firstPicture
+        b.id as bid,
+        t.name AS NAME,
+        u.nickname AS nickname,
+        b.description AS description,
+        b.views AS views,
+        b.create_time AS updateTime,
+        b.update_time AS updateTime,
+        b.title AS title,
+        b.first_picture AS firstPicture
       FROM t_blog  b
       LEFT JOIN  t_type t ON b.type_id = t.id
       LEFT JOIN t_user u  ON b.user_id = u.id
