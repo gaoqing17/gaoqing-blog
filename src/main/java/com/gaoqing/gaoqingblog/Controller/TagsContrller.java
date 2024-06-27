@@ -22,13 +22,15 @@ public class TagsContrller {
     //去分类
     @RequestMapping("/tags/{id}")
     public String types(Model model,
-                        @RequestParam(defaultValue = "0",value = "pageNum") Integer pageNum,@PathVariable int id){
+                        @RequestParam(defaultValue = "0", value = "pageNum")
+                                Integer pageNum,
+                        @PathVariable int id) {
 
         //获取分类的全部种类和数量
         List<TypePassing> tagsCollection = tagsService.getTagCollection();
         //从导航栏分类进入到分类页面
-        if(id==-1){
-            if (!tagsCollection.isEmpty()){
+        if (id == -1) {
+            if (!tagsCollection.isEmpty()) {
                 id = tagsCollection.get(0).getId();
             }
         }

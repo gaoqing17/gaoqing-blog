@@ -19,7 +19,7 @@ public class CommentsServiceIpml implements CommentsService {
     private List<Comment> tempReplys = new ArrayList<>();
 
 
-    //削除
+    //新评论
     @Override
     public boolean SaveComment() {
         boolean b = commentsMapper.SaveComment();
@@ -66,10 +66,16 @@ public class CommentsServiceIpml implements CommentsService {
 
 
     @Override
-    public boolean getDeteleUP(int blogId, int id, int EthicalJudgment) {
+    public boolean getDeteleUP(int id, int blogId, int EthicalJudgment) {
         Comment comment = commentsMapper.getEmailByParentId(id, blogId);
-        int ethicalJudgment = comment.getEthicalJudgment();
-        boolean deteleUP = commentsMapper.getDeteleUP(blogId, id, ethicalJudgment);
-        return deteleUP;
+        EthicalJudgment = comment.getEthicalJudgment();
+        int parentCommentId = comment.getParentCommentId();
+        if (EthicalJudgment == 0) {
+            boolean deteleUP = false;
+            return deteleUP;
+        } else {
+            boolean deteleUP = commentsMapper.getDeteleUP(blogId, id, parentCommentId);
+            return deteleUP;
+        }
     }
 }

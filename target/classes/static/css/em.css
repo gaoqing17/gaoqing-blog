@@ -196,14 +196,14 @@ body{
 
 
 /*div换行*/
-.field{
+.field {
     clear: both;
 }
 
 /*看板娘大小和位置*/
 .kanban-girl-container {
     position: fixed;
-    bottom: 0;  /* 靠下 */
+    bottom: 0; /* 靠下 */
     left: 100px;
     z-index: 1000; /* 保证在最上层 */
     width: 80px; /* 宽度 */

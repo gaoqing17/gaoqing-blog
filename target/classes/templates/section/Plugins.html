@@ -45,7 +45,7 @@
     <div class="ui center  aligned container">
         <!--divided:分割线-->
         <div class="ui inverted stackable divided grid">
-            <div class="kanban-girl-container" >
+            <div class="kanban-girl-container">
                 <script src="https://cdn.jsdelivr.net/npm/live2d-widget@3.0.4/lib/L2Dwidget.min.js"></script>
                 <script class="kanban-girl">
                     L2Dwidget.init();
@@ -54,11 +54,12 @@
             <!--three：这个模块在div中占三个空格点-->
             <div class="three wide column">
                 <div class="item">
-                    <img src="../static/images/weixing.jpg" th:src="@{../images/weixing.jpg}" class="ui rounded image" alt="" style="width: 110px">
+                    <img alt="" class="ui rounded image" src="../static/images/weixing.jpg"
+                         style="width: 110px" th:src="@{../images/weixing.jpg}">
                 </div>
             </div>
             <div class="three wide column">
-                <h4 class="ui inverted header  m-text-thin m-text-spaced m-text-lined" >各人博客</h4>
+                <h4 class="ui inverted header  m-text-thin m-text-spaced m-text-lined">各人博客</h4>
                 <div class="ui inverted link list">
                     <a href="#" class="item">用户故事</a>
                     <a href="#" class="item">我的留言</a>

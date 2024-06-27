@@ -30,19 +30,20 @@
         ORDER BY create_time DESC
     </select>
 
+
+    <select id="findByBlogIdParentIdNotNull" resultType="com.gaoqing.gaoqingblog.pojo.Comment">
+        SELECT * FROM t_comment WHERE blog_id = #{blogId} AND parent_comment_id = #{id} AND Ethical_judgment = 1
+    </select>
+
+
     <select id="getEmailByParentId" resultType="com.gaoqing.gaoqingblog.pojo.Comment">
         SELECT * FROM t_comment WHERE id = #{id} AND blog_id = #{blogId}
     </select>
 
-    <select id="findByBlogIdParentIdNotNull" resultType="com.gaoqing.gaoqingblog.pojo.Comment">
-        SELECT * FROM t_comment WHERE blog_id = #{blogId} AND parent_comment_id = #{id}
-    </select>
-
-
     <update id="getDeteleUP">
         UPDATE t_comment SET Ethical_judgment = 0 WHERE blog_id = #{blogId}
         AND id = #{id}
-        <if test="parentCommentId ! = null">
+        <if test="parentCommentId != null">
             AND parent_comment_id = #{parentCommentId}
         </if>
 

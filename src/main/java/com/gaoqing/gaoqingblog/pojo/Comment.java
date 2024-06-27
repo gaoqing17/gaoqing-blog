@@ -26,8 +26,10 @@ public class Comment {
     private List<Comment> replyComments = new ArrayList<>();
     //回复评论
     private Comment parentComment;
+
     //回复评论ID
     private int parentCommentId;
+
     //评论状态 1为正常显示 0 为删除
     private int EthicalJudgment;
 

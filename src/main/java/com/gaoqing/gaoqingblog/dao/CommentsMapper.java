@@ -20,10 +20,10 @@ public interface CommentsMapper {
     List<Comment> findByBlogIdParentIdNotNull(@Param("blogId") int blogId, @Param("id") int CommentId);
 
     // 根据父评论id查询留言信息
-    Comment getEmailByParentId(int blogId, int id);
+    Comment getEmailByParentId(int id, int blogId);
 
     // 删除评论
-    boolean getDeteleUP(int blogId, int id, int EthicalJudgment);
+    boolean getDeteleUP(@Param("blogId") int blogId, @Param("id") int id, @Param("parentCommentId") int parentCommentId);
 
 
 }

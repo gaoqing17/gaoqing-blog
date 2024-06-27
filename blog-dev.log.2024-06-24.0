@@ -1,0 +1,1080 @@
+2024-06-24 00:00:45.129  INFO 9380 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Starting GaoqingBlogApplication using Java 1.8.0_131 on DESKTOP-ONFQSUL with PID 9380 (E:\硬盘\个人博客\gaoqing-blog\target\classes started by 高庆 in E:\硬盘\个人博客\gaoqing-blog)
+2024-06-24 00:00:45.160  INFO 9380 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : The following profiles are active: dev
+2024-06-24 00:00:45.275  INFO 9380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-24 00:00:45.278  INFO 9380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-24 00:00:46.611  INFO 9380 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 00:00:46.641  INFO 9380 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2024-06-24 00:00:47.134  INFO 9380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.gaoqing.gaoqingblog.config.shiroConfig$$EnhancerBySpringCGLIB$$22e0138b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:00:47.168  INFO 9380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:00:47.298  INFO 9380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:00:47.311  INFO 9380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$9370b074] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:00:47.321  INFO 9380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:00:47.336  INFO 9380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:00:47.376  INFO 9380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:00:47.433  INFO 9380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:00:47.445  INFO 9380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:00:47.604  INFO 9380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:00:47.610  INFO 9380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:00:47.616  INFO 9380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.gaoqing.gaoqingblog.service.admin.imp.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:00:47.617  INFO 9380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.gaoqing.gaoqingblog.config.userRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:00:47.654  INFO 9380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'defaultManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:00:48.029  INFO 9380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-06-24 00:00:48.043  INFO 9380 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24 00:00:48.043  INFO 9380 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-06-24 00:00:48.215  INFO 9380 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24 00:00:48.216  INFO 9380 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2937 ms
+2024-06-24 00:00:48.379  INFO 9380 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 00:00:48.425  INFO 9380 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-24 00:00:48.560  INFO 9380 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-24 00:00:48.687  INFO 9380 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-24 00:00:48.814  INFO 9380 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-24 00:00:48.833  INFO 9380 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2024-06-24 00:00:49.149  INFO 9380 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-24 00:00:49.164  INFO 9380 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 00:00:49.557  WARN 9380 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 00:00:50.607  INFO 9380 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-24 00:00:52.010  INFO 9380 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-24 00:00:52.088  INFO 9380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-24 00:00:52.111  INFO 9380 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Started GaoqingBlogApplication in 8.082 seconds (JVM running for 9.593)
+2024-06-24 00:00:53.209  INFO 9380 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 00:00:53.209  INFO 9380 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24 00:00:53.209  INFO 9380 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-24 00:00:53.339  INFO 9380 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:00:53.477  INFO 9380 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:00:53.478  INFO 9380 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:00:54.412  INFO 9380 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:00:54.428  INFO 9380 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:00:54.428  INFO 9380 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:02:18.837  INFO 9380 --- [http-nio-8081-exec-7] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:02:18.843  INFO 9380 --- [http-nio-8081-exec-7] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:02:18.843  INFO 9380 --- [http-nio-8081-exec-7] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:02:19.073  INFO 9380 --- [http-nio-8081-exec-3] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:02:19.082  INFO 9380 --- [http-nio-8081-exec-3] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:02:19.083  INFO 9380 --- [http-nio-8081-exec-3] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:02:21.479  INFO 9380 --- [http-nio-8081-exec-2] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comment/2/19/delete', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getDeteleUP', args=[19, 2, {}]}
+2024-06-24 00:02:21.503  INFO 9380 --- [http-nio-8081-exec-2] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:02:21.504  INFO 9380 --- [http-nio-8081-exec-2] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:07:59.969  INFO 15916 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Starting GaoqingBlogApplication using Java 1.8.0_131 on DESKTOP-ONFQSUL with PID 15916 (E:\硬盘\个人博客\gaoqing-blog\target\classes started by 高庆 in E:\硬盘\个人博客\gaoqing-blog)
+2024-06-24 00:07:59.979  INFO 15916 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : The following profiles are active: dev
+2024-06-24 00:08:00.049  INFO 15916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-24 00:08:00.049  INFO 15916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-24 00:08:01.093  INFO 15916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 00:08:01.118  INFO 15916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2024-06-24 00:08:01.709  INFO 15916 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.gaoqing.gaoqingblog.config.shiroConfig$$EnhancerBySpringCGLIB$$442dba89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:01.731  INFO 15916 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:01.832  INFO 15916 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:01.850  INFO 15916 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b4be5772] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:01.863  INFO 15916 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:01.879  INFO 15916 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:01.903  INFO 15916 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:01.966  INFO 15916 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:01.982  INFO 15916 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:02.163  INFO 15916 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:02.168  INFO 15916 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:02.173  INFO 15916 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.gaoqing.gaoqingblog.service.admin.imp.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:02.173  INFO 15916 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.gaoqing.gaoqingblog.config.userRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:02.209  INFO 15916 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'defaultManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:02.593  INFO 15916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-06-24 00:08:02.611  INFO 15916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24 00:08:02.611  INFO 15916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-06-24 00:08:02.774  INFO 15916 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24 00:08:02.774  INFO 15916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2725 ms
+2024-06-24 00:08:02.919  INFO 15916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 00:08:02.969  INFO 15916 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-24 00:08:03.117  INFO 15916 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-24 00:08:03.219  INFO 15916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-24 00:08:03.318  INFO 15916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-24 00:08:03.338  INFO 15916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2024-06-24 00:08:03.569  INFO 15916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-24 00:08:03.578  INFO 15916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 00:08:03.829  WARN 15916 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 00:08:04.199  INFO 15916 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-24 00:08:04.598  INFO 15916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-24 00:08:04.638  INFO 15916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-24 00:08:04.649  INFO 15916 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Started GaoqingBlogApplication in 5.395 seconds (JVM running for 6.6)
+2024-06-24 00:08:17.019  INFO 15916 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 00:08:17.019  INFO 15916 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24 00:08:17.019  INFO 15916 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-24 00:08:17.168  INFO 15916 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:08:17.302  INFO 15916 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:08:17.302  INFO 15916 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:08:18.239  INFO 15916 --- [http-nio-8081-exec-6] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:08:18.252  INFO 15916 --- [http-nio-8081-exec-6] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:08:18.252  INFO 15916 --- [http-nio-8081-exec-6] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:08:22.358  INFO 15916 --- [http-nio-8081-exec-3] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comment/2/19/delete', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getDeteleUP', args=[19, 2, {}]}
+2024-06-24 00:08:22.378  INFO 15916 --- [http-nio-8081-exec-3] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:08:22.378  INFO 15916 --- [http-nio-8081-exec-3] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:08:49.249  INFO 1440 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Starting GaoqingBlogApplication using Java 1.8.0_131 on DESKTOP-ONFQSUL with PID 1440 (E:\硬盘\个人博客\gaoqing-blog\target\classes started by 高庆 in E:\硬盘\个人博客\gaoqing-blog)
+2024-06-24 00:08:49.260  INFO 1440 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : The following profiles are active: dev
+2024-06-24 00:08:49.331  INFO 1440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-24 00:08:49.331  INFO 1440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-24 00:08:51.108  INFO 1440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 00:08:51.139  INFO 1440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 JPA repository interfaces.
+2024-06-24 00:08:51.808  INFO 1440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.gaoqing.gaoqingblog.config.shiroConfig$$EnhancerBySpringCGLIB$$e70d4856] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:51.833  INFO 1440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:51.929  INFO 1440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:51.939  INFO 1440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$579de53f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:51.949  INFO 1440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:51.968  INFO 1440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:51.998  INFO 1440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:52.043  INFO 1440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:52.048  INFO 1440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:52.220  INFO 1440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:52.228  INFO 1440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:52.228  INFO 1440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.gaoqing.gaoqingblog.service.admin.imp.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:52.228  INFO 1440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.gaoqing.gaoqingblog.config.userRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:52.268  INFO 1440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'defaultManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:08:52.659  INFO 1440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-06-24 00:08:52.669  INFO 1440 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24 00:08:52.669  INFO 1440 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-06-24 00:08:52.819  INFO 1440 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24 00:08:52.819  INFO 1440 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3488 ms
+2024-06-24 00:08:52.988  INFO 1440 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 00:08:53.028  INFO 1440 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-24 00:08:53.163  INFO 1440 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-24 00:08:53.279  INFO 1440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-24 00:08:53.409  INFO 1440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-24 00:08:53.439  INFO 1440 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2024-06-24 00:08:53.699  INFO 1440 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-24 00:08:53.714  INFO 1440 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 00:08:54.029  WARN 1440 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 00:08:54.512  INFO 1440 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-24 00:08:55.038  INFO 1440 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-24 00:08:55.089  INFO 1440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-24 00:08:55.099  INFO 1440 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Started GaoqingBlogApplication in 6.822 seconds (JVM running for 8.068)
+2024-06-24 00:09:12.428  INFO 1440 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 00:09:12.428  INFO 1440 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24 00:09:12.428  INFO 1440 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-24 00:09:12.559  INFO 1440 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comment/2/19/delete', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getDeteleUP', args=[19, 2, {}]}
+2024-06-24 00:09:12.669  INFO 1440 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:09:12.669  INFO 1440 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:09:19.322  INFO 1440 --- [http-nio-8081-exec-2] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:09:19.383  INFO 1440 --- [http-nio-8081-exec-2] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:09:19.383  INFO 1440 --- [http-nio-8081-exec-2] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:09:20.164  INFO 1440 --- [http-nio-8081-exec-2] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:09:20.172  INFO 1440 --- [http-nio-8081-exec-2] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:09:20.172  INFO 1440 --- [http-nio-8081-exec-2] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:09:29.299  INFO 1440 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:09:29.308  INFO 1440 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:09:29.308  INFO 1440 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:09:29.442  INFO 1440 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:09:29.448  INFO 1440 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:09:29.448  INFO 1440 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:14:26.115  INFO 11688 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Starting GaoqingBlogApplication using Java 1.8.0_131 on DESKTOP-ONFQSUL with PID 11688 (E:\硬盘\个人博客\gaoqing-blog\target\classes started by 高庆 in E:\硬盘\个人博客\gaoqing-blog)
+2024-06-24 00:14:26.125  INFO 11688 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : The following profiles are active: dev
+2024-06-24 00:14:26.245  INFO 11688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-24 00:14:26.245  INFO 11688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-24 00:14:27.465  INFO 11688 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 00:14:27.495  INFO 11688 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2024-06-24 00:14:28.380  INFO 11688 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.gaoqing.gaoqingblog.config.shiroConfig$$EnhancerBySpringCGLIB$$a2811189] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:14:28.420  INFO 11688 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:14:28.613  INFO 11688 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:14:28.625  INFO 11688 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$1311ae72] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:14:28.643  INFO 11688 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:14:28.664  INFO 11688 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:14:28.715  INFO 11688 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:14:28.787  INFO 11688 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:14:28.805  INFO 11688 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:14:29.107  INFO 11688 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:14:29.117  INFO 11688 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:14:29.125  INFO 11688 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.gaoqing.gaoqingblog.service.admin.imp.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:14:29.127  INFO 11688 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.gaoqing.gaoqingblog.config.userRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:14:29.204  INFO 11688 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'defaultManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:14:30.084  INFO 11688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-06-24 00:14:30.095  INFO 11688 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24 00:14:30.095  INFO 11688 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-06-24 00:14:30.715  INFO 11688 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24 00:14:30.715  INFO 11688 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4468 ms
+2024-06-24 00:14:30.995  INFO 11688 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 00:14:31.085  INFO 11688 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-24 00:14:31.263  INFO 11688 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-24 00:14:31.413  INFO 11688 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-24 00:14:31.572  INFO 11688 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-24 00:14:31.596  INFO 11688 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2024-06-24 00:14:31.912  INFO 11688 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-24 00:14:31.930  INFO 11688 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 00:14:32.335  WARN 11688 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 00:14:32.991  INFO 11688 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-24 00:14:33.673  INFO 11688 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-24 00:14:33.741  INFO 11688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-24 00:14:33.759  INFO 11688 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Started GaoqingBlogApplication in 8.836 seconds (JVM running for 10.629)
+2024-06-24 00:14:38.238  INFO 11688 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 00:14:38.238  INFO 11688 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24 00:14:38.238  INFO 11688 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-24 00:14:38.372  INFO 11688 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='127.0.0.1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:14:38.480  INFO 11688 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:14:38.480  INFO 11688 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:14:42.335  INFO 11688 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:14:42.345  INFO 11688 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:14:42.345  INFO 11688 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:14:53.816  INFO 11688 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comment/2/19/delete', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getDeteleUP', args=[19, 2, {}]}
+2024-06-24 00:14:53.841  INFO 11688 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:14:53.842  INFO 11688 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:16:28.022  INFO 11688 --- [http-nio-8081-exec-3] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comment/2/19/delete', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getDeteleUP', args=[19, 2, {}]}
+2024-06-24 00:16:28.035  INFO 11688 --- [http-nio-8081-exec-3] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:16:28.035  INFO 11688 --- [http-nio-8081-exec-3] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:18:51.592  INFO 15740 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Starting GaoqingBlogApplication using Java 1.8.0_131 on DESKTOP-ONFQSUL with PID 15740 (E:\硬盘\个人博客\gaoqing-blog\target\classes started by 高庆 in E:\硬盘\个人博客\gaoqing-blog)
+2024-06-24 00:18:51.594  INFO 15740 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : The following profiles are active: dev
+2024-06-24 00:18:51.716  INFO 15740 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-24 00:18:51.716  INFO 15740 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-24 00:18:53.411  INFO 15740 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 00:18:53.463  INFO 15740 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 0 JPA repository interfaces.
+2024-06-24 00:18:54.223  INFO 15740 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.gaoqing.gaoqingblog.config.shiroConfig$$EnhancerBySpringCGLIB$$ef7721a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:18:54.243  INFO 15740 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:18:54.433  INFO 15740 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:18:54.453  INFO 15740 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6007be91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:18:54.463  INFO 15740 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:18:54.483  INFO 15740 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:18:54.513  INFO 15740 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:18:54.584  INFO 15740 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:18:54.593  INFO 15740 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:18:54.811  INFO 15740 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:18:54.821  INFO 15740 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:18:54.827  INFO 15740 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.gaoqing.gaoqingblog.service.admin.imp.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:18:54.828  INFO 15740 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.gaoqing.gaoqingblog.config.userRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:18:54.888  INFO 15740 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'defaultManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:18:55.417  INFO 15740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-06-24 00:18:55.431  INFO 15740 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24 00:18:55.431  INFO 15740 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-06-24 00:18:55.637  INFO 15740 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24 00:18:55.638  INFO 15740 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3922 ms
+2024-06-24 00:18:55.853  INFO 15740 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 00:18:55.913  INFO 15740 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-24 00:18:56.082  INFO 15740 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-24 00:18:56.213  INFO 15740 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-24 00:18:56.363  INFO 15740 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-24 00:18:56.398  INFO 15740 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2024-06-24 00:18:56.712  INFO 15740 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-24 00:18:56.726  INFO 15740 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 00:18:57.070  WARN 15740 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 00:18:57.613  INFO 15740 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-24 00:18:58.153  INFO 15740 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-24 00:18:58.208  INFO 15740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-24 00:18:58.223  INFO 15740 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Started GaoqingBlogApplication in 7.463 seconds (JVM running for 9.312)
+2024-06-24 00:18:58.310  INFO 15740 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 00:18:58.311  INFO 15740 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24 00:18:58.312  INFO 15740 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-24 00:18:58.458  INFO 15740 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='127.0.0.1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:18:58.593  INFO 15740 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:18:58.593  INFO 15740 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:19:02.914  INFO 15740 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:19:02.923  INFO 15740 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:19:02.933  INFO 15740 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:19:13.416  INFO 15740 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='127.0.0.1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:19:13.425  INFO 15740 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:19:13.425  INFO 15740 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:19:17.290  INFO 15740 --- [http-nio-8081-exec-3] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='127.0.0.1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:19:17.306  INFO 15740 --- [http-nio-8081-exec-3] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:19:17.306  INFO 15740 --- [http-nio-8081-exec-3] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:19:25.880  INFO 15740 --- [http-nio-8081-exec-7] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comment/2/19/delete', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getDeteleUP', args=[19, 2, {}]}
+2024-06-24 00:19:25.917  INFO 15740 --- [http-nio-8081-exec-7] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:19:25.917  INFO 15740 --- [http-nio-8081-exec-7] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:23:04.117  INFO 15368 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Starting GaoqingBlogApplication using Java 1.8.0_131 on DESKTOP-ONFQSUL with PID 15368 (E:\硬盘\个人博客\gaoqing-blog\target\classes started by 高庆 in E:\硬盘\个人博客\gaoqing-blog)
+2024-06-24 00:23:04.137  INFO 15368 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : The following profiles are active: dev
+2024-06-24 00:23:04.187  INFO 15368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-24 00:23:04.187  INFO 15368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-24 00:23:05.106  INFO 15368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 00:23:05.127  INFO 15368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2024-06-24 00:23:05.527  INFO 15368 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.gaoqing.gaoqingblog.config.shiroConfig$$EnhancerBySpringCGLIB$$21a828d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:23:05.547  INFO 15368 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:23:05.647  INFO 15368 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:23:05.655  INFO 15368 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$9238c5bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:23:05.657  INFO 15368 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:23:05.667  INFO 15368 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:23:05.697  INFO 15368 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:23:05.727  INFO 15368 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:23:05.742  INFO 15368 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:23:05.897  INFO 15368 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:23:05.897  INFO 15368 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:23:05.897  INFO 15368 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.gaoqing.gaoqingblog.service.admin.imp.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:23:05.897  INFO 15368 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.gaoqing.gaoqingblog.config.userRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:23:05.932  INFO 15368 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'defaultManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:23:06.267  INFO 15368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-06-24 00:23:06.277  INFO 15368 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24 00:23:06.277  INFO 15368 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-06-24 00:23:06.417  INFO 15368 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24 00:23:06.417  INFO 15368 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2230 ms
+2024-06-24 00:23:06.537  INFO 15368 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 00:23:06.577  INFO 15368 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-24 00:23:06.677  INFO 15368 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-24 00:23:06.777  INFO 15368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-24 00:23:06.897  INFO 15368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-24 00:23:06.917  INFO 15368 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2024-06-24 00:23:07.127  INFO 15368 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-24 00:23:07.137  INFO 15368 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 00:23:07.447  WARN 15368 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 00:23:07.847  INFO 15368 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-24 00:23:08.277  INFO 15368 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-24 00:23:08.317  INFO 15368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-24 00:23:08.327  INFO 15368 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Started GaoqingBlogApplication in 5.141 seconds (JVM running for 6.194)
+2024-06-24 00:23:12.350  INFO 15368 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 00:23:12.350  INFO 15368 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24 00:23:12.350  INFO 15368 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-24 00:23:12.466  INFO 15368 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:23:12.554  INFO 15368 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:23:12.554  INFO 15368 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:23:16.443  INFO 15368 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:23:16.463  INFO 15368 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:23:16.464  INFO 15368 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:23:20.550  INFO 15368 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comment/2/19/delete', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getDeteleUP', args=[19, 2, {}]}
+2024-06-24 00:23:20.587  INFO 15368 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:23:20.587  INFO 15368 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:30:08.771  INFO 11896 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Starting GaoqingBlogApplication using Java 1.8.0_131 on DESKTOP-ONFQSUL with PID 11896 (E:\硬盘\个人博客\gaoqing-blog\target\classes started by 高庆 in E:\硬盘\个人博客\gaoqing-blog)
+2024-06-24 00:30:08.776  INFO 11896 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : The following profiles are active: dev
+2024-06-24 00:30:08.840  INFO 11896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-24 00:30:08.840  INFO 11896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-24 00:30:10.268  INFO 11896 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 00:30:10.314  INFO 11896 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 0 JPA repository interfaces.
+2024-06-24 00:30:10.953  INFO 11896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.gaoqing.gaoqingblog.config.shiroConfig$$EnhancerBySpringCGLIB$$ac0decc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:30:10.973  INFO 11896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:30:11.087  INFO 11896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:30:11.095  INFO 11896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$1c9e89b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:30:11.095  INFO 11896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:30:11.105  INFO 11896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:30:11.135  INFO 11896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:30:11.175  INFO 11896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:30:11.185  INFO 11896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:30:11.327  INFO 11896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:30:11.327  INFO 11896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:30:11.327  INFO 11896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.gaoqing.gaoqingblog.service.admin.imp.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:30:11.327  INFO 11896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.gaoqing.gaoqingblog.config.userRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:30:11.360  INFO 11896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'defaultManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:30:11.808  INFO 11896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-06-24 00:30:11.841  INFO 11896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24 00:30:11.842  INFO 11896 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-06-24 00:30:11.995  INFO 11896 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24 00:30:11.995  INFO 11896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3155 ms
+2024-06-24 00:30:12.145  INFO 11896 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 00:30:12.185  INFO 11896 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-24 00:30:12.285  INFO 11896 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-24 00:30:12.360  INFO 11896 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-24 00:30:12.445  INFO 11896 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-24 00:30:12.465  INFO 11896 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2024-06-24 00:30:12.695  INFO 11896 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-24 00:30:12.705  INFO 11896 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 00:30:12.915  WARN 11896 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 00:30:13.229  INFO 11896 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-24 00:30:13.613  INFO 11896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-24 00:30:13.645  INFO 11896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-24 00:30:13.655  INFO 11896 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Started GaoqingBlogApplication in 5.66 seconds (JVM running for 7.176)
+2024-06-24 00:30:18.320  INFO 11896 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 00:30:18.320  INFO 11896 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24 00:30:18.322  INFO 11896 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-06-24 00:30:18.435  INFO 11896 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:30:18.525  INFO 11896 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:30:18.525  INFO 11896 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:30:22.366  INFO 11896 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:30:22.385  INFO 11896 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:30:22.385  INFO 11896 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:30:26.724  INFO 11896 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comment/2/19/delete', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getDeteleUP', args=[19, 2, {}]}
+2024-06-24 00:30:26.757  INFO 11896 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:30:26.757  INFO 11896 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:31:02.511  INFO 11896 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:31:02.517  INFO 11896 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:31:02.517  INFO 11896 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:31:06.542  INFO 11896 --- [http-nio-8081-exec-7] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:31:06.562  INFO 11896 --- [http-nio-8081-exec-7] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:31:06.562  INFO 11896 --- [http-nio-8081-exec-7] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:31:12.053  INFO 11896 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comment/2/19/delete', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getDeteleUP', args=[19, 2, {}]}
+2024-06-24 00:31:12.062  INFO 11896 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:31:12.062  INFO 11896 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:37:15.418  INFO 11352 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Starting GaoqingBlogApplication using Java 1.8.0_131 on DESKTOP-ONFQSUL with PID 11352 (E:\硬盘\个人博客\gaoqing-blog\target\classes started by 高庆 in E:\硬盘\个人博客\gaoqing-blog)
+2024-06-24 00:37:15.428  INFO 11352 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : The following profiles are active: dev
+2024-06-24 00:37:15.478  INFO 11352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-24 00:37:15.478  INFO 11352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-24 00:37:16.208  INFO 11352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 00:37:16.229  INFO 11352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2024-06-24 00:37:16.568  INFO 11352 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.gaoqing.gaoqingblog.config.shiroConfig$$EnhancerBySpringCGLIB$$64f5a1bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:37:16.590  INFO 11352 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:37:16.658  INFO 11352 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:37:16.678  INFO 11352 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d5863ea8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:37:16.678  INFO 11352 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:37:16.690  INFO 11352 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:37:16.708  INFO 11352 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:37:16.748  INFO 11352 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:37:16.748  INFO 11352 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:37:16.879  INFO 11352 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:37:16.883  INFO 11352 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:37:16.889  INFO 11352 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.gaoqing.gaoqingblog.service.admin.imp.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:37:16.890  INFO 11352 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.gaoqing.gaoqingblog.config.userRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:37:16.957  INFO 11352 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'defaultManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:37:17.349  INFO 11352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-06-24 00:37:17.358  INFO 11352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24 00:37:17.358  INFO 11352 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-06-24 00:37:17.478  INFO 11352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24 00:37:17.478  INFO 11352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2000 ms
+2024-06-24 00:37:17.591  INFO 11352 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 00:37:17.628  INFO 11352 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-24 00:37:17.733  INFO 11352 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-24 00:37:17.808  INFO 11352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-24 00:37:17.892  INFO 11352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-24 00:37:17.909  INFO 11352 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2024-06-24 00:37:18.099  INFO 11352 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-24 00:37:18.108  INFO 11352 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 00:37:18.309  WARN 11352 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 00:37:18.614  INFO 11352 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-24 00:37:18.978  INFO 11352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-24 00:37:19.008  INFO 11352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-24 00:37:19.023  INFO 11352 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Started GaoqingBlogApplication in 4.236 seconds (JVM running for 5.243)
+2024-06-24 00:37:34.958  INFO 11352 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 00:37:34.962  INFO 11352 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24 00:37:34.963  INFO 11352 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-24 00:37:35.080  INFO 11352 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:37:35.180  INFO 11352 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:37:35.180  INFO 11352 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:37:39.373  INFO 11352 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:37:39.398  INFO 11352 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:37:39.399  INFO 11352 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:37:43.068  INFO 11352 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comment/2/19/delete', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getDeteleUP', args=[19, 2, {}, org.apache.shiro.web.servlet.ShiroHttpServletRequest@28f6089e, org.apache.catalina.connector.ResponseFacade@6df493e4]}
+2024-06-24 00:37:43.103  INFO 11352 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}org.apache.catalina.connector.ResponseFacade@6df493e4
+2024-06-24 00:37:43.103  INFO 11352 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:37:43.186 ERROR 11352 --- [http-nio-8081-exec-10] c.g.g.config.controllerExceptioHandler   : Request URL:http://localhost:8081/comment/2/19/delete,Exception:{}
+
+org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: getOutputStream() has already been called for this response; nested exception is com.fasterxml.jackson.databind.JsonMappingException: getOutputStream() has already been called for this response (through reference chain: org.apache.catalina.connector.ResponseFacade["writer"])
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:463)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: getOutputStream() has already been called for this response (through reference chain: org.apache.catalina.connector.ResponseFacade["writer"])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:390)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:349)
+	at com.fasterxml.jackson.databind.ser.std.StdSerializer.wrapAndThrow(StdSerializer.java:316)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:778)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1514)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1006)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454)
+	... 57 common frames omitted
+Caused by: java.lang.IllegalStateException: getOutputStream() has already been called for this response
+	at org.apache.catalina.connector.Response.getWriter(Response.java:584)
+	at org.apache.catalina.connector.ResponseFacade.getWriter(ResponseFacade.java:227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:770)
+	... 63 common frames omitted
+
+2024-06-24 00:37:43.187  WARN 11352 --- [http-nio-8081-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: getOutputStream() has already been called for this response; nested exception is com.fasterxml.jackson.databind.JsonMappingException: getOutputStream() has already been called for this response (through reference chain: org.apache.catalina.connector.ResponseFacade["writer"])]
+2024-06-24 00:37:43.189 ERROR 11352 --- [http-nio-8081-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: getOutputStream() has already been called for this response] with root cause
+
+java.lang.IllegalStateException: getOutputStream() has already been called for this response
+	at org.apache.catalina.connector.Response.getWriter(Response.java:584)
+	at org.apache.catalina.connector.ResponseFacade.getWriter(ResponseFacade.java:227)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:364)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1400)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2024-06-24 00:38:26.938  INFO 14896 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Starting GaoqingBlogApplication using Java 1.8.0_131 on DESKTOP-ONFQSUL with PID 14896 (E:\硬盘\个人博客\gaoqing-blog\target\classes started by 高庆 in E:\硬盘\个人博客\gaoqing-blog)
+2024-06-24 00:38:26.938  INFO 14896 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : The following profiles are active: dev
+2024-06-24 00:38:27.221  INFO 14896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-24 00:38:27.222  INFO 14896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-24 00:38:28.638  INFO 14896 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 00:38:28.668  INFO 14896 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2024-06-24 00:38:29.109  INFO 14896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.gaoqing.gaoqingblog.config.shiroConfig$$EnhancerBySpringCGLIB$$1446a67c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:38:29.128  INFO 14896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:38:29.283  INFO 14896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:38:29.291  INFO 14896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$84d74365] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:38:29.300  INFO 14896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:38:29.310  INFO 14896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:38:29.335  INFO 14896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:38:29.370  INFO 14896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:38:29.376  INFO 14896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:38:29.491  INFO 14896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:38:29.495  INFO 14896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:38:29.497  INFO 14896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.gaoqing.gaoqingblog.service.admin.imp.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:38:29.498  INFO 14896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.gaoqing.gaoqingblog.config.userRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:38:29.523  INFO 14896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'defaultManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:38:29.822  INFO 14896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-06-24 00:38:29.831  INFO 14896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24 00:38:29.832  INFO 14896 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-06-24 00:38:29.978  INFO 14896 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24 00:38:29.981  INFO 14896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2758 ms
+2024-06-24 00:38:30.110  INFO 14896 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 00:38:30.149  INFO 14896 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-24 00:38:30.259  INFO 14896 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-24 00:38:30.344  INFO 14896 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-24 00:38:30.438  INFO 14896 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-24 00:38:30.449  INFO 14896 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2024-06-24 00:38:30.651  INFO 14896 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-24 00:38:30.659  INFO 14896 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 00:38:30.867  WARN 14896 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 00:38:31.194  INFO 14896 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-24 00:38:31.566  INFO 14896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-24 00:38:31.602  INFO 14896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-24 00:38:31.613  INFO 14896 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Started GaoqingBlogApplication in 5.926 seconds (JVM running for 7.554)
+2024-06-24 00:38:31.782  INFO 14896 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 00:38:31.782  INFO 14896 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24 00:38:31.786  INFO 14896 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-06-24 00:38:31.898  INFO 14896 --- [http-nio-8081-exec-2] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:38:31.898  INFO 14896 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:38:31.988  INFO 14896 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:38:31.988  INFO 14896 --- [http-nio-8081-exec-2] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:38:31.988  INFO 14896 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:38:31.988  INFO 14896 --- [http-nio-8081-exec-2] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:38:36.029  INFO 14896 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:38:36.040  INFO 14896 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:38:36.040  INFO 14896 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:38:53.310  INFO 14896 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:38:53.318  INFO 14896 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:38:53.319  INFO 14896 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:38:57.230  INFO 14896 --- [http-nio-8081-exec-6] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:38:57.249  INFO 14896 --- [http-nio-8081-exec-6] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:38:57.249  INFO 14896 --- [http-nio-8081-exec-6] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:39:01.708  INFO 14896 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comment/2/19/delete', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getDeteleUP', args=[19, 2, {}, org.apache.shiro.web.servlet.ShiroHttpServletRequest@90f3bf1, org.apache.catalina.connector.ResponseFacade@324dfe9c]}
+2024-06-24 00:39:01.740  INFO 14896 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}org.apache.catalina.connector.ResponseFacade@324dfe9c
+2024-06-24 00:39:01.740  INFO 14896 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:39:01.764 ERROR 14896 --- [http-nio-8081-exec-8] c.g.g.config.controllerExceptioHandler   : Request URL:http://localhost:8081/comment/2/19/delete,Exception:{}
+
+org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: getOutputStream() has already been called for this response; nested exception is com.fasterxml.jackson.databind.JsonMappingException: getOutputStream() has already been called for this response (through reference chain: org.apache.catalina.connector.ResponseFacade["writer"])
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:463)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: getOutputStream() has already been called for this response (through reference chain: org.apache.catalina.connector.ResponseFacade["writer"])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:390)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:349)
+	at com.fasterxml.jackson.databind.ser.std.StdSerializer.wrapAndThrow(StdSerializer.java:316)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:778)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1514)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1006)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454)
+	... 57 common frames omitted
+Caused by: java.lang.IllegalStateException: getOutputStream() has already been called for this response
+	at org.apache.catalina.connector.Response.getWriter(Response.java:584)
+	at org.apache.catalina.connector.ResponseFacade.getWriter(ResponseFacade.java:227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:770)
+	... 63 common frames omitted
+
+2024-06-24 00:39:01.765  WARN 14896 --- [http-nio-8081-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: getOutputStream() has already been called for this response; nested exception is com.fasterxml.jackson.databind.JsonMappingException: getOutputStream() has already been called for this response (through reference chain: org.apache.catalina.connector.ResponseFacade["writer"])]
+2024-06-24 00:39:01.768 ERROR 14896 --- [http-nio-8081-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: getOutputStream() has already been called for this response] with root cause
+
+java.lang.IllegalStateException: getOutputStream() has already been called for this response
+	at org.apache.catalina.connector.Response.getWriter(Response.java:584)
+	at org.apache.catalina.connector.ResponseFacade.getWriter(ResponseFacade.java:227)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:364)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1400)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2024-06-24 00:39:51.203  INFO 15528 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Starting GaoqingBlogApplication using Java 1.8.0_131 on DESKTOP-ONFQSUL with PID 15528 (E:\硬盘\个人博客\gaoqing-blog\target\classes started by 高庆 in E:\硬盘\个人博客\gaoqing-blog)
+2024-06-24 00:39:51.218  INFO 15528 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : The following profiles are active: dev
+2024-06-24 00:39:51.298  INFO 15528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-24 00:39:51.298  INFO 15528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-24 00:39:52.108  INFO 15528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 00:39:52.128  INFO 15528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2024-06-24 00:39:52.478  INFO 15528 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.gaoqing.gaoqingblog.config.shiroConfig$$EnhancerBySpringCGLIB$$442dba89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:39:52.498  INFO 15528 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:39:52.578  INFO 15528 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:39:52.578  INFO 15528 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b4be5772] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:39:52.588  INFO 15528 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:39:52.598  INFO 15528 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:39:52.621  INFO 15528 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:39:52.648  INFO 15528 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:39:52.658  INFO 15528 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:39:52.783  INFO 15528 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:39:52.793  INFO 15528 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:39:52.793  INFO 15528 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.gaoqing.gaoqingblog.service.admin.imp.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:39:52.793  INFO 15528 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.gaoqing.gaoqingblog.config.userRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:39:52.818  INFO 15528 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'defaultManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:39:53.108  INFO 15528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-06-24 00:39:53.108  INFO 15528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24 00:39:53.108  INFO 15528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-06-24 00:39:53.241  INFO 15528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24 00:39:53.241  INFO 15528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1943 ms
+2024-06-24 00:39:53.378  INFO 15528 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 00:39:53.418  INFO 15528 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-24 00:39:53.508  INFO 15528 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-24 00:39:53.588  INFO 15528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-24 00:39:53.678  INFO 15528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-24 00:39:53.693  INFO 15528 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2024-06-24 00:39:53.888  INFO 15528 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-24 00:39:53.888  INFO 15528 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 00:39:54.095  WARN 15528 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 00:39:54.393  INFO 15528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-24 00:39:54.743  INFO 15528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-24 00:39:54.778  INFO 15528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-24 00:39:54.788  INFO 15528 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Started GaoqingBlogApplication in 4.191 seconds (JVM running for 5.139)
+2024-06-24 00:40:08.055  INFO 15528 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 00:40:08.056  INFO 15528 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24 00:40:08.057  INFO 15528 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-24 00:40:08.178  INFO 15528 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:40:08.308  INFO 15528 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:40:08.308  INFO 15528 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:40:12.554  INFO 15528 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:40:12.576  INFO 15528 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:40:12.576  INFO 15528 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:40:40.993  INFO 15528 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comment/2/19/delete', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getDeteleUP', args=[19, 2, {}, org.apache.shiro.web.servlet.ShiroHttpServletRequest@2a197579, org.apache.catalina.connector.ResponseFacade@2e26e4e2]}
+2024-06-24 00:40:41.019  INFO 15528 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:40:41.019  INFO 15528 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:40:54.249  INFO 15528 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comment/2/19/delete', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getDeteleUP', args=[19, 2, {}, org.apache.shiro.web.servlet.ShiroHttpServletRequest@c4b8ec2, org.apache.catalina.connector.ResponseFacade@2e26e4e2]}
+2024-06-24 00:40:54.255  INFO 15528 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:40:54.255  INFO 15528 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:41:05.366  INFO 15528 --- [http-nio-8081-exec-7] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comment/2/19/delete', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getDeteleUP', args=[19, 2, {}, org.apache.shiro.web.servlet.ShiroHttpServletRequest@518f7f8a, org.apache.catalina.connector.ResponseFacade@bcd8763]}
+2024-06-24 00:41:05.371  INFO 15528 --- [http-nio-8081-exec-7] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:41:05.371  INFO 15528 --- [http-nio-8081-exec-7] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:43:09.704  INFO 15452 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Starting GaoqingBlogApplication using Java 1.8.0_131 on DESKTOP-ONFQSUL with PID 15452 (E:\硬盘\个人博客\gaoqing-blog\target\classes started by 高庆 in E:\硬盘\个人博客\gaoqing-blog)
+2024-06-24 00:43:09.709  INFO 15452 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : The following profiles are active: dev
+2024-06-24 00:43:09.773  INFO 15452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-24 00:43:09.773  INFO 15452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-24 00:43:10.500  INFO 15452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 00:43:10.525  INFO 15452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2024-06-24 00:43:10.865  INFO 15452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.gaoqing.gaoqingblog.config.shiroConfig$$EnhancerBySpringCGLIB$$442dba89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:43:10.885  INFO 15452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:43:10.955  INFO 15452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:43:10.965  INFO 15452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b4be5772] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:43:10.975  INFO 15452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:43:10.985  INFO 15452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:43:11.000  INFO 15452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:43:11.030  INFO 15452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:43:11.035  INFO 15452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:43:11.147  INFO 15452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:43:11.155  INFO 15452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:43:11.155  INFO 15452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.gaoqing.gaoqingblog.service.admin.imp.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:43:11.155  INFO 15452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.gaoqing.gaoqingblog.config.userRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:43:11.185  INFO 15452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'defaultManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:43:11.465  INFO 15452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-06-24 00:43:11.465  INFO 15452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24 00:43:11.465  INFO 15452 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-06-24 00:43:11.585  INFO 15452 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24 00:43:11.585  INFO 15452 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1810 ms
+2024-06-24 00:43:11.705  INFO 15452 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 00:43:11.740  INFO 15452 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-24 00:43:11.830  INFO 15452 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-24 00:43:11.905  INFO 15452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-24 00:43:11.985  INFO 15452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-24 00:43:12.005  INFO 15452 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2024-06-24 00:43:12.185  INFO 15452 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-24 00:43:12.195  INFO 15452 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 00:43:12.395  WARN 15452 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 00:43:12.695  INFO 15452 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-24 00:43:13.045  INFO 15452 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-24 00:43:13.087  INFO 15452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-24 00:43:13.096  INFO 15452 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Started GaoqingBlogApplication in 4.009 seconds (JVM running for 5.019)
+2024-06-24 00:43:46.210  INFO 15452 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 00:43:46.210  INFO 15452 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24 00:43:46.210  INFO 15452 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-24 00:43:46.317  INFO 15452 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:43:46.410  INFO 15452 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:43:46.410  INFO 15452 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:43:50.144  INFO 15452 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:43:50.155  INFO 15452 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:43:50.155  INFO 15452 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:43:55.194  INFO 15452 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comment/2/19/delete', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getDeteleUP', args=[19, 2, {}, org.apache.shiro.web.servlet.ShiroHttpServletRequest@c4b8ec2, org.apache.catalina.connector.ResponseFacade@8741b93]}
+2024-06-24 00:43:55.222  INFO 15452 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:43:55.222  INFO 15452 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:46:40.873  INFO 14196 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Starting GaoqingBlogApplication using Java 1.8.0_131 on DESKTOP-ONFQSUL with PID 14196 (E:\硬盘\个人博客\gaoqing-blog\target\classes started by 高庆 in E:\硬盘\个人博客\gaoqing-blog)
+2024-06-24 00:46:40.873  INFO 14196 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : The following profiles are active: dev
+2024-06-24 00:46:40.938  INFO 14196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-24 00:46:40.938  INFO 14196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-24 00:46:41.688  INFO 14196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 00:46:41.713  INFO 14196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2024-06-24 00:46:42.073  INFO 14196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.gaoqing.gaoqingblog.config.shiroConfig$$EnhancerBySpringCGLIB$$b4b900ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:46:42.091  INFO 14196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:46:42.163  INFO 14196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:46:42.173  INFO 14196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$25499dd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:46:42.173  INFO 14196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:46:42.188  INFO 14196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:46:42.203  INFO 14196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:46:42.236  INFO 14196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:46:42.236  INFO 14196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:46:42.353  INFO 14196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:46:42.361  INFO 14196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:46:42.363  INFO 14196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.gaoqing.gaoqingblog.service.admin.imp.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:46:42.363  INFO 14196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.gaoqing.gaoqingblog.config.userRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:46:42.383  INFO 14196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'defaultManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:46:42.673  INFO 14196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-06-24 00:46:42.683  INFO 14196 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24 00:46:42.683  INFO 14196 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-06-24 00:46:42.803  INFO 14196 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24 00:46:42.803  INFO 14196 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1865 ms
+2024-06-24 00:46:42.923  INFO 14196 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 00:46:42.963  INFO 14196 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-24 00:46:43.053  INFO 14196 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-24 00:46:43.136  INFO 14196 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-24 00:46:43.223  INFO 14196 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-24 00:46:43.243  INFO 14196 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2024-06-24 00:46:43.443  INFO 14196 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-24 00:46:43.453  INFO 14196 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 00:46:43.663  WARN 14196 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 00:46:43.978  INFO 14196 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-24 00:46:44.337  INFO 14196 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-24 00:46:44.373  INFO 14196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-24 00:46:44.383  INFO 14196 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Started GaoqingBlogApplication in 4.098 seconds (JVM running for 5.021)
+2024-06-24 00:47:00.783  INFO 14196 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 00:47:00.783  INFO 14196 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24 00:47:00.783  INFO 14196 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-24 00:47:00.883  INFO 14196 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:47:00.983  INFO 14196 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:47:00.983  INFO 14196 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:47:04.932  INFO 14196 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:47:04.953  INFO 14196 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:47:04.953  INFO 14196 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:48:53.443  INFO 16244 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Starting GaoqingBlogApplication using Java 1.8.0_131 on DESKTOP-ONFQSUL with PID 16244 (E:\硬盘\个人博客\gaoqing-blog\target\classes started by 高庆 in E:\硬盘\个人博客\gaoqing-blog)
+2024-06-24 00:48:53.453  INFO 16244 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : The following profiles are active: dev
+2024-06-24 00:48:53.533  INFO 16244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-24 00:48:53.533  INFO 16244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-24 00:48:54.222  INFO 16244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 00:48:54.243  INFO 16244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2024-06-24 00:48:54.602  INFO 16244 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.gaoqing.gaoqingblog.config.shiroConfig$$EnhancerBySpringCGLIB$$f04b2aab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:48:54.623  INFO 16244 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:48:54.693  INFO 16244 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:48:54.702  INFO 16244 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$60dbc794] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:48:54.712  INFO 16244 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:48:54.722  INFO 16244 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:48:54.742  INFO 16244 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:48:54.773  INFO 16244 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:48:54.783  INFO 16244 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:48:54.892  INFO 16244 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:48:54.892  INFO 16244 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:48:54.902  INFO 16244 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.gaoqing.gaoqingblog.service.admin.imp.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:48:54.902  INFO 16244 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.gaoqing.gaoqingblog.config.userRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:48:54.932  INFO 16244 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'defaultManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:48:55.212  INFO 16244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-06-24 00:48:55.222  INFO 16244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24 00:48:55.222  INFO 16244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-06-24 00:48:55.404  INFO 16244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24 00:48:55.404  INFO 16244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1871 ms
+2024-06-24 00:48:55.572  INFO 16244 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 00:48:55.623  INFO 16244 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-24 00:48:55.735  INFO 16244 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-24 00:48:55.853  INFO 16244 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-24 00:48:55.943  INFO 16244 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-24 00:48:55.953  INFO 16244 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2024-06-24 00:48:56.142  INFO 16244 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-24 00:48:56.153  INFO 16244 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 00:48:56.382  WARN 16244 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 00:48:56.703  INFO 16244 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-24 00:48:57.070  INFO 16244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-24 00:48:57.103  INFO 16244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-24 00:48:57.112  INFO 16244 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Started GaoqingBlogApplication in 4.329 seconds (JVM running for 5.898)
+2024-06-24 00:49:02.177  INFO 16244 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 00:49:02.177  INFO 16244 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24 00:49:02.183  INFO 16244 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-06-24 00:49:02.300  INFO 16244 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:49:02.507  INFO 16244 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:49:02.508  INFO 16244 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:49:06.761  INFO 16244 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:49:06.773  INFO 16244 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:49:06.773  INFO 16244 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:50:10.002  INFO 11764 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Starting GaoqingBlogApplication using Java 1.8.0_131 on DESKTOP-ONFQSUL with PID 11764 (E:\硬盘\个人博客\gaoqing-blog\target\classes started by 高庆 in E:\硬盘\个人博客\gaoqing-blog)
+2024-06-24 00:50:10.012  INFO 11764 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : The following profiles are active: dev
+2024-06-24 00:50:10.083  INFO 11764 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-24 00:50:10.083  INFO 11764 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-24 00:50:11.483  INFO 11764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 00:50:11.508  INFO 11764 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-06-24 00:50:11.903  INFO 11764 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.gaoqing.gaoqingblog.config.shiroConfig$$EnhancerBySpringCGLIB$$e1efbf29] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:50:11.922  INFO 11764 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:50:11.992  INFO 11764 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:50:12.002  INFO 11764 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$52805c12] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:50:12.012  INFO 11764 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:50:12.023  INFO 11764 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:50:12.032  INFO 11764 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:50:12.062  INFO 11764 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:50:12.078  INFO 11764 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:50:12.192  INFO 11764 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:50:12.192  INFO 11764 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:50:12.192  INFO 11764 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.gaoqing.gaoqingblog.service.admin.imp.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:50:12.192  INFO 11764 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.gaoqing.gaoqingblog.config.userRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:50:12.222  INFO 11764 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'defaultManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 00:50:12.492  INFO 11764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-06-24 00:50:12.503  INFO 11764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24 00:50:12.503  INFO 11764 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-06-24 00:50:12.622  INFO 11764 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24 00:50:12.622  INFO 11764 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2539 ms
+2024-06-24 00:50:12.752  INFO 11764 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 00:50:12.792  INFO 11764 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-24 00:50:12.882  INFO 11764 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-24 00:50:12.962  INFO 11764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-24 00:50:13.042  INFO 11764 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-24 00:50:13.052  INFO 11764 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2024-06-24 00:50:13.242  INFO 11764 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-24 00:50:13.252  INFO 11764 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 00:50:13.462  WARN 11764 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 00:50:13.752  INFO 11764 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-24 00:50:14.177  INFO 11764 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-24 00:50:14.212  INFO 11764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-24 00:50:14.222  INFO 11764 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Started GaoqingBlogApplication in 5.347 seconds (JVM running for 7.0)
+2024-06-24 00:50:19.413  INFO 11764 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 00:50:19.413  INFO 11764 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24 00:50:19.413  INFO 11764 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-24 00:50:19.522  INFO 11764 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:50:19.613  INFO 11764 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:50:19.613  INFO 11764 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:50:23.306  INFO 11764 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:50:23.330  INFO 11764 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:50:23.330  INFO 11764 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:50:26.079  INFO 11764 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comment/2/19/delete', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getDeteleUP', args=[19, 2, {}, org.apache.shiro.web.servlet.ShiroHttpServletRequest@763f5073, org.apache.catalina.connector.ResponseFacade@7200da6c]}
+2024-06-24 00:50:26.104  INFO 11764 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:50:26.104  INFO 11764 --- [http-nio-8081-exec-9] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:50:26.113  INFO 11764 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 00:50:26.122  INFO 11764 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 00:50:26.123  INFO 11764 --- [http-nio-8081-exec-10] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 00:50:26.283  INFO 11764 --- [http-nio-8081-exec-7] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 00:50:26.292  INFO 11764 --- [http-nio-8081-exec-7] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 00:50:26.292  INFO 11764 --- [http-nio-8081-exec-7] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 23:45:51.759  INFO 18444 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Starting GaoqingBlogApplication using Java 1.8.0_131 on DESKTOP-ONFQSUL with PID 18444 (E:\硬盘\个人博客\gaoqing-blog\target\classes started by 高庆 in E:\硬盘\个人博客\gaoqing-blog)
+2024-06-24 23:45:51.777  INFO 18444 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : The following profiles are active: dev
+2024-06-24 23:45:51.954  INFO 18444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-24 23:45:51.954  INFO 18444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-24 23:45:55.230  INFO 18444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 23:45:55.265  INFO 18444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 JPA repository interfaces.
+2024-06-24 23:45:55.998  INFO 18444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.gaoqing.gaoqingblog.config.shiroConfig$$EnhancerBySpringCGLIB$$5c821a81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 23:45:56.025  INFO 18444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 23:45:56.212  INFO 18444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 23:45:56.221  INFO 18444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cd12b76a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 23:45:56.232  INFO 18444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 23:45:56.247  INFO 18444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 23:45:56.468  INFO 18444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 23:45:56.627  INFO 18444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 23:45:56.652  INFO 18444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 23:45:57.019  INFO 18444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 23:45:57.027  INFO 18444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userDaoMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 23:45:57.052  INFO 18444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.gaoqing.gaoqingblog.service.admin.imp.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 23:45:57.053  INFO 18444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.gaoqing.gaoqingblog.config.userRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 23:45:57.098  INFO 18444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'defaultManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-24 23:45:57.713  INFO 18444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-06-24 23:45:57.727  INFO 18444 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24 23:45:57.727  INFO 18444 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-06-24 23:45:57.883  INFO 18444 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24 23:45:57.883  INFO 18444 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5927 ms
+2024-06-24 23:45:58.240  INFO 18444 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 23:45:58.360  INFO 18444 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-24 23:45:58.694  INFO 18444 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-24 23:45:58.886  INFO 18444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-24 23:45:59.137  INFO 18444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-24 23:45:59.176  INFO 18444 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2024-06-24 23:45:59.567  INFO 18444 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-24 23:45:59.625  INFO 18444 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 23:46:00.177  WARN 18444 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 23:46:00.966  INFO 18444 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-24 23:46:02.068  INFO 18444 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-24 23:46:02.179  INFO 18444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-24 23:46:02.201  INFO 18444 --- [restartedMain] c.g.gaoqingblog.GaoqingBlogApplication   : Started GaoqingBlogApplication in 11.802 seconds (JVM running for 16.161)
+2024-06-24 23:46:08.412  INFO 18444 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 23:46:08.413  INFO 18444 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24 23:46:08.417  INFO 18444 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-06-24 23:46:08.767  INFO 18444 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.BlogDetailedContrller.blog', args=[{}, 19]}
+2024-06-24 23:46:08.943  INFO 18444 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog
+2024-06-24 23:46:08.944  INFO 18444 --- [http-nio-8081-exec-1] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
+2024-06-24 23:46:10.788  INFO 18444 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Request : {url='http://localhost:8081/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.gaoqing.gaoqingblog.Controller.CommentsContrller.getComments', args=[{}, 19]}
+2024-06-24 23:46:10.844  INFO 18444 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : Result : {}blog :: commentList
+2024-06-24 23:46:10.844  INFO 18444 --- [http-nio-8081-exec-8] c.gaoqing.gaoqingblog.aspect.LogAspect   : ---------doAfter---------
