@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/section/AdminPlugins::head(~{::title})">
+    <meta charset="utf-8">
+    <!-- 页面缩放 -->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"></meta>
+    <title>博客管理-首页</title>
+    <link href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css" rel="stylesheet">
+    <link href="../../static/css/em.css" rel="stylesheet">
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="ui inverted attached segment m-padded-td-mini" th:replace="/section/AdminPlugins :: menu(1)">
+    <div class="ui stackable container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui teal header item">后台管理</h2>
+            <a class="active m-item item m-mobile-hide" href="#"><i class="home icon"></i>博客</a>
+            <a class="m-item item m-mobile-hide" href="#"><i class="idea icon"></i>分类</a>
+            <a> class="m-item item m-mobile-hide"><i class="tags icon"></i>标签</a>
+            <div class="right m-mobile-hide item">
+                <div class="right m-item menu">
+                    <div class="ui dropdown m-mobile-hide item">
+                        <div class="text">
+                            <img class="ui avatar image" src="https://unsplash.it/100/100?image=1005">
+                            橘子不是唯一的水果
+                        </div>
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <a class="item" href="#">注销</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <button class="ui black icon button menu toggle m-right-top m-mobile-show">
+            <i class="sidebar icon"></i>
+        </button>
+    </div>
+</nav>
+<!--		中间内容-->
+<div class="m-container-samll m-padded-tb-large">
+    <div class="ui container">
+        <div class="ui success large message">
+            <h2>Hi,</h2>
+            <p>高庆，欢迎登录！</p>
+        </div>
+        <img alt="" class="ui rounded bordered fluid image" src="https://picsum.photos/1000/700">
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- 底部footer -->
+<footer class="ui inverted vertical segment m-padded-td-massive m-padded-responsive"
+        th:replace="/section/Plugins :: footer">
+    <!--center aligned:居中-->
+    <div class="ui center  aligned container">
+        <!--divided:分割线-->
+        <div class="ui inverted stackable divided  grid">
+            <!--three：这个模块在div中占三个空格点-->
+            <div class="three wide column">
+                <div class="item">
+                    <img alt="" class="ui rounded image" src="../static/images/weixing.jpg" style="width: 110px"
+                         th:src="@{../images/weixing.jpg}">
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header  m-text-thin m-text-spaced m-text-lined">各人博客</h4>
+                <div class="ui inverted link list">
+                    <a class="item" href="#">用户故事</a>
+                    <a class="item" href="#">我的留言</a>
+                    <a class="item" href="#">用户故事</a>
+                </div>
+            </div>
+
+            <div class="three wide column">
+                <h4 class="ui inverted header  m-text-thin m-text-spaced m-text-lined">联系我</h4>
+                <div class="ui inverted link list">
+                    <a class="item" href="#">Email:1300610479@qq.com</a>
+                    <a class="item" href="#">QQ:1300610479</a>
+                </div>
+            </div>
+            <div class="seven wide column">
+                <h4 class="ui inverted header  m-text-thin m-text-spaced m-text-lined">Blo</h4>
+                <p class="m-opacity-mini m-text-thin m-text-spaced m-text-lined">这是我的各人博客，请你关注点赞收藏谢谢</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider">
+        </div>
+        <p class="m-opacity-mini m-text-thin m-text-spaced m-text-lined">
+            ©2020 - 2022 By Char1es_Y1n Hi,welcome to my blog
+        </p>
+    </div>
+</footer>
+<th:block th:replace="/section/Plugins :: script">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+</th:block>
+<script>
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide')
+    });
+
+    $('.dropdown').dropdown()
+
+
+</script>
+</body>
+</html>

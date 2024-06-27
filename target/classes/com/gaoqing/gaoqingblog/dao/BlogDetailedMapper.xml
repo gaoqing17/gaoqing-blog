@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gaoqing.gaoqingblog.dao.BlogDetailedMapper">
+
+    <resultMap id="EmplAnDept" type="com.gaoqing.gaoqingblog.pojo.Blog">
+        <result property="type.id" column="typeid"/>
+        <result property="tag.id" column="tagid"/>
+        <result property="tag.name" column="tagmame"/>
+        <result property="type.name" column="name"/>
+        <result property="user.username" column="username"/>
+        <result property="user.nickname" column="nickname"/>
+        <result property="user.id" column="userid"/>
+        <result property="id" column="bid"/>
+        <result property="title" column="title"/>
+        <result property="content" column="content"/>
+        <result property="firstPicture" column="firstPicture"/>
+        <result property="flag" column="flag"/>
+        <result property="views" column="views"/>
+        <result property="appreciation" column="appreciation"/>
+        <result property="shareStatement" column="shareStatement"/>
+        <result property="commentabled" column="commentabled"/>
+        <result property="published" column="published"/>
+        <result property="recommend" column="recommend"/>
+        <result property="createTime" column="createTime"/>
+        <result property="updateTime" column="updateTime"/>
+        <result property="tagIds" column="tagIds"/>
+        <result property="description" column="description"/>
+        <result property="num" column="NUM" jdbcType="NUMERIC" />
+        <result property="agname" column="agname" jdbcType="NUMERIC" />
+    </resultMap>
+
+    <!--按id查询文章详细内容-->
+    <select id="GetBlog" resultMap="EmplAnDept">
+     SELECT
+       b.id AS bid,
+       t.name AS NAME,
+       u.nickname AS nickname,
+       b.description AS description,
+       b.commentabled AS commentabled,
+       b.views AS views,
+       b.create_time AS updateTime,
+       b.update_time AS updateTime,
+       b.title AS title,
+       b.first_picture AS firstPicture,
+       b.content AS content,
+       b.title AS title,
+       b.first_picture AS firstPicture,
+       b.flag AS flag,
+       b.views AS views,
+       b.appreciation AS appreciation
+      FROM t_blog  b
+      LEFT JOIN  t_type t ON b.type_id = t.id
+      LEFT JOIN t_user u  ON b.user_id = u.id
+      WHERE b.id =  #{typeid}
+  </select>
+
+    <!--按id查询文章详细内容-->
+    <select id="GteComments" resultMap="EmplAnDept">
+     SELECT
+       t.name AS NAME,
+       u.nickname AS nickname,
+       b.description AS description,
+       b.views AS views,
+       b.create_time AS updateTime,
+       b.update_time AS updateTime,
+       b.title AS title,
+       b.first_picture AS firstPicture,
+       b.content AS content,
+       b.title AS title,
+       b.first_picture AS firstPicture,
+       b.flag AS flag,
+       b.views AS views,
+       b.appreciation AS appreciation
+      FROM t_blog  b
+      LEFT JOIN  t_type t ON b.type_id = t.id
+      LEFT JOIN t_user u  ON b.user_id = u.id
+      WHERE b.id =  #{typeid}
+  </select>
+
+   <update id="AddViews" >
+        UPDATE t_blog SET views = #{views} WHERE id = #{id}
+   </update>
+
+
+</mapper>
